@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ITEAHub</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="bd.sql" rel="">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="photo/ITEAHub_logo_white.svg" alt="'">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Коворкінг</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/page1.html">Оренда приміщень</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="pages/page2.html">Оренда кімнат</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Локація та контакти
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">вул. Героїв УПА, 80</a></li>
+                      <li><a class="dropdown-item" href="pages/page3.html">Контакти</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Інше
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/page4.html">Авторська сторінка</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <header>
+            <h1 class="cow">Коворкінг</h1>
+            <br/>
+            <p class="p1">вул. Героїв УПА, 80</p>
+        </header>
+        <div id="tariffs">
+            <h1>ТАРИФИ ДЛЯ РЕЗИДЕНТІВ</h1>
+        </div>
+
+        <div class="container tabs">
+            <a href="#" class="tab" onclick="showTab('tab1')">НЕЗАКРІПЛЕНЕ РОБОЧЕ МІСЦЕ</a>
+            <a href="#" class="tab" onclick="showTab('tab2')">ЗАКРІПЛЕНЕ РОБОЧЕ МІСЦЕ</a>
+            <a href="#" class="tab" onclick="showTab('tab3')">ПРИВАТНА КІМНАТА</a>
+          </div>
+          
+          <div id="tab1" class="tab-content active">
+
+            <div class="column">
+                <img class="icons" src="photo/1.svg">
+                чай, кава, печиво
+                <br/>
+                <img class="icons" src="photo/5.svg">
+                20 сторінок друку в день
+                <br/><br/>
+                Ціна за день: <b>300 грн</b>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/2.svg">
+                допомога адмін-команди
+                <br/>
+                <img class="icons" src="photo/6.svg">
+                бронювання мітингруму
+                <br/>
+                <br/>
+                Ціна: перша година <b>80 грн,</b> <br/>наступні — <b>40 грн</b>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/3.svg">
+                незакріплене робоче місце
+                <br/>
+                <img class="icons" src="photo/7.svg">
+                відвідування подій
+                <br/>
+                <br/>
+                Ціна за місяць: <b>2600 грн</b>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/4.svg">
+                швидкісний інтернет
+                <br/><br/><br/><br/><br/>
+               
+          </div>
+          
+          </div>
+          
+          <div id="tab2" class="tab-content">
+
+            <div class="column">
+                <img class="icons" src="photo/1.svg">
+                чай, кава, печиво
+                <br/>
+                <img class="icons" src="photo/5.svg">
+                20 сторінок друку в день
+                <br/>
+                Ціна за місяць: <b>3200 грн</b>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/2.svg">
+                допомога адмін-команди
+                <br/>
+                <img class="icons" src="photo/6.svg">
+                бронювання мітингруму 
+                <br/><br/>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/3.svg">
+                закріплене робоче місце
+                <br/>
+                <img class="icons" src="photo/7.svg">
+                відвідування подій 
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/4.svg">
+                швидкісний інтернет
+              </div>
+          </div>
+          </div>
+          
+          <div id="tab3" class="tab-content">
+            <div class="column">
+                <img class="icons" src="photo/1.svg">
+                чай, кава, печиво
+                <br/>
+                <img class="icons" src="photo/5.svg">
+                20 сторінок друку в день
+                <br/>
+                Ціна за місяць: <b>3600 грн</b>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/2.svg">
+                допомога адмін-команди
+                <br/>
+                <img class="icons" src="photo/6.svg">
+                бронювання мітингруму 
+                <br/><br/>
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/3.svg">
+                закріплене робоче місце
+                <br/>
+                <img class="icons" src="photo/7.svg">
+                відвідування подій 
+              </div>
+              <div class="column">
+                <img class="icons" src="photo/4.svg">
+                швидкісний інтернет
+                <br/>
+                <img class="icons" src="photo/8.svg">
+                гостьовий візит
+              </div>
+            </div>
+        </div>
+         <section>
+            <div class="end">
+                <div class="row">
+                    <div class="col-6">
+                        <h2>ITEAHub</h2>
+                    </div>
+                    <div class="col-6">
+                        <h2>Послуги</h2>
+                        <div class="posluhy" >
+                            <a class="nav-link text-white" href="#tariffs">Коворкінг</a>
+                            <a class="nav-link text-white" href="pages/page1.html">Оренда приміщень</a>
+                            <a class="nav-link text-white" href="pages/page2.html">Оренда кімнат</a>
+                            <a class="nav-link text-white" href="pages/page3.html">Контакти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+          <footer>
+            <p>&copy; 2023 ITEAHub</p>
+          </footer>
+          <script>
+            function openModal() {
+              document.getElementById('myModal').style.display = 'flex';
+            }
+          
+            function closeModal() {
+              document.getElementById('myModal').style.display = 'none';
+            }
+          </script>
+            <script>
+                function showTab(tabId) {
+                  // Сховати всі вмістові блоки
+                  var tabs = document.querySelectorAll('.tab-content');
+                  tabs.forEach(function(tab) {
+                    tab.classList.remove('active');
+                  });
+              
+                  // Показати вмістовий блок, який відповідає вибраному табу
+                  var selectedTab = document.getElementById(tabId);
+                  if (selectedTab) {
+                    selectedTab.classList.add('active');
+                  }
+              
+                  // Зняти виділення з усіх табів
+                  var tabLinks = document.querySelectorAll('.tab');
+                  tabLinks.forEach(function(link) {
+                    link.classList.remove('active');
+                  });
+              
+                  // Виділити вибраний таб
+                  var selectedTabLink = document.querySelector('.tab[href="#' + tabId + '"]');
+                  if (selectedTabLink) {
+                    selectedTabLink.classList.add('active');
+                  }
+                }
+              </script>
+
+            <script src="js/bootstrap.js"></script>
+            <!-- Bootstrap JS bundle (Popper included) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Bootstrap JS bundle (Popper included) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            
+    </body>
+</html>

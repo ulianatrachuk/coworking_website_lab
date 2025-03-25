@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ITEAHub</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
+        <style>
+            .container {
+              display: flex;
+              grid-template-columns: 1fr 1fr;
+              justify-content: space-around;
+              padding: 25px;
+            }
+            .column p{
+                color: #000;
+                justify-content: left;
+            }
+            .me{
+                width: 300px;
+                height: 300px;
+            }
+          </style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="../photo/ITEAHub_logo_white.svg" alt="'">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Коворкінг</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="page1.html">Оренда приміщень</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="page2.html">Оренда кімнат</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="№" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Локація та контакти
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">вул. Героїв УПА, 80</a></li>
+                      <li><a class="dropdown-item" href="page3.html">Контакти</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Інше
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="page4.html">Авторська сторінка</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <header>
+            <h1 class="cow">Авторська сторінка</h1>
+            <br/>
+            <p class="p1">вул. Героїв УПА, 80</p>
+        </header>
+
+        <div class="container">
+            <div class="column">
+                <img class="me" src="../photo/me.jpg">
+              </div>
+              <div class="column">
+                <h4 >Трачук Уляна</h4>
+                <p>Група: ПП-23</p>
+                <p>Номер: +380 (68) 765 66 12</p>
+                <p>Email: uliana.trachuk.pp.2022@lpnu.ua</p>
+                <p>Адреса: вул. Академіка Сахарова, 23, Львів</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023</p>
+        </footer>
+          <script src="js/bootstrap.js"></script>
+          <!-- Bootstrap JS bundle (Popper included) -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

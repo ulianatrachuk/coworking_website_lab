@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ITEAHub</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
+        <style>
+          h2{
+            display: flex;
+            justify-content: center;
+          }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <img src="../photo/ITEAHub_logo_white.svg" alt="'">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Коворкінг</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="page1.html">Оренда приміщень</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="page2.html">Оренда кімнат</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Локація та контакти
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">вул. Героїв УПА, 80</a></li>
+                      <li><a class="dropdown-item" href="page3.html">Контакти</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Інше
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="page4.html">Авторська сторінка</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <header>
+            <h1 class="cow">Оренда приміщень</h1>
+            <br/>
+            <p class="p1">вул. Героїв УПА, 80</p>
+        </header>
+        <div class="cards">
+          <div class="card" style="width: 22rem;">
+            <img src="../photo/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ІНВЕНТОРІУМ</h5>
+              <p class="card-text"><ul><li>швидкісний інтернет</li><li>2 радіомікрофони з мікшером</li><li>колонки</li><li>меблі (стільці, столи) за потребою</li><li>безкоштовні 30 технічних хвилин до і після заходу</li><li>різноманітні варіанти розсадки гостей</li></li><li>2 проектори, 2 екрани</li><li>ноутбук та клікер для презентацій, перехідник</li><li>фліпчарт з маркерами</li><li>стійка навігації та гардероб</li><li>кулер з водою та обладнання для coffee-break</li><li>промо заходів</li></ul></p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">120-150 учасників</li>
+                <li class="list-group-item">95 кв. м.</li>
+                <li class="list-group-item">1000 грн/год</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <img src="../photo/c2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">2/3 OPEN SPACE</h5>
+              <p class="card-text"><ul><li>швидкісний інтернет</li><li>меблі (стільці, столи) за потребою</li><li>колонки</li><li>стійка навігації та гардероб</li><li>безкоштовні 30 технічних хвилин до і після заходу</li><li>промо заходів</li><li>проектор та екран</li><li>ноутбук та клікер для презентацій, перехідник</li><li>фліпчарт з маркерами</li><li>кулер з водою та обладнання для coffee-break</li><li>різноманітні варіанти розсадки гостей</li></ul></p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">до 50 учасників</li>
+                <li class="list-group-item">64 кв. м.</li>
+                <li class="list-group-item">600 грн/год</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <img src="../photo/c3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">АУДИТОРІЯ</h5>
+              <p class="card-text"><ul><li>швидкісний інтернет</li><li>меблі (стільці, столи) за потребою</li><li>колонки</li><li>стійка навігації та гардероб</li><li>безкоштовні 30 технічних хвилин до і після заходу</li><li>промо заходів</li><li>проектор та екран</li><li>ноутбук та клікер для презентацій, перехідник</li><li>фліпчарт з маркерами</li><li>кулер з водою та обладнання для coffee-break</li><li>різноманітні варіанти розсадки гостей</li></ul></p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">до 30 учасників</li>
+                <li class="list-group-item">35 кв. м.</li>
+                <li class="list-group-item">350 грн/год</li>
+                <li class="list-group-item">2000 грн/день</li>
+              </ul>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <h2>ОРЕНДА МІТИНГРУМІВ</h2>
+        <div class="cardd">
+          <div class="cardds" style="width: 45rem; display: flex; justify-content: space-around;">
+            <img src="../photo/c5.png" class="card-img-top" alt="...">
+            <div class="card-body"style=" display: flex;flex-direction: column;">
+              <h5 class="card-title">Мітингрум №1</h5>
+              <p class="card-text"><ul><li>швидкісний інтернет</li><li>меблі (стіл та стільці)</li><li>чай та кава</li><li>фліпчарт з маркерами</li><li>кулер з водою</li></ul></p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div class="cardd">
+          <div class="cardds" style="width: 45rem; display: flex; justify-content: space-around;">
+            <img src="../photo/c4.png" class="card-img-top" alt="...">
+            <div class="card-body"style=" display: flex;flex-direction: column;">
+              <h5 class="card-title">Мітингрум №1</h5>
+              <p class="card-text"><ul><li>швидкісний інтернет</li><li>телевізор для презентацій</li><li>перехідник до MacBook</li><li>колонки за потребою</li><li>меблі (стіл та стільці)</li><li>чай та кава</li><li>фліпчарт з маркерами</li><li>кулер з водою</li></ul></p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="cardds" style="width: 45rem; display: flex; justify-content: space-around;">
+            <img src="../photo/c7.png" class="card-img-top" alt="...">
+            <div class="card-body"style=" display: flex;flex-direction: column;">
+              <h5 class="card-title">SKYPE & CALL BOX</h5>
+              <p class="card-text">Кімната для переговорів по Skype чи телефону<ul><li>free для резидентів ITEAHub</li><li>80 грн/год</li></ul></p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardd">
+          <div class="cardds" style="width: 45rem; display: flex; justify-content: space-around;">
+            <img src="../photo/c8.png" class="card-img-top" alt="...">
+            <div class="card-body"style=" display: flex;flex-direction: column;">
+              <h5 class="card-title">SKYPE ROOM</h5>
+              <p class="card-text">Кімната для переговорів по Skype чи телефону<ul><li>free для резидентів ITEAHub</li><li>80 грн/год</li></ul></p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-whatever="@getbootstrap">Забронювати</button>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel"><ITEAHub></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                      <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">Як до Вас звертатись?</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Email:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message-text" class="col-form-label">Номер телефону:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      </form>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрити</button>
+                      <button type="button" class="btn btn-primary">Надіслати</button>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class="end">
+              <div class="row">
+                  <div class="col-6">
+                      <h2>ITEAHub</h2>
+                  </div>
+                  <div class="col-6">
+                      <h2>Послуги</h2>
+                      <div class="posluhy">
+                          <a class="nav-link text-white" href="#tariffs">Коворкінг</a>
+                          <a class="nav-link text-white" href="pages/page1.html">Оренда приміщень</a>
+                          <a class="nav-link text-white" href="pages/page2.html">Оренда кімнат</a>
+                          <a class="nav-link text-white" href="pages/page3.html">Контакти</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       </section>
+        <footer>
+          <p>&copy; 2023</p>
+        </footer>
+          <script src="js/bootstrap.js"></script>
+          <!-- Bootstrap JS bundle (Popper included) -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          <script>
+            function submitForm() {
+                const form = document.getElementById('bookingForm');
+                const formData = new FormData(form);
+            
+                fetch('http://yourserver.com/api/saveBooking', {
+                    method: 'POST',
+                    body: formData,
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    alert('Бронювання успішно відправлено!');
+                })
+                .catch(error => {
+                    console.error('Помилка:', error);
+                    alert('Сталася помилка під час відправки бронювання.');
+                });
+            }
+            </script>
+            
+    </body>
+</html>
